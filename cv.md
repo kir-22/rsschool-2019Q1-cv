@@ -17,43 +17,43 @@
 import { init, addInit } from './init';
 let next;
 let prev;
-export{next, prev}
+export{next, prev};
+
 export function ajax(){
-fetch(`https://www.googleapis.com/youtube/v3/search?key=AIzaSyDR4nYtKG6R4r2ByKEmvGl9Q3ulSRJcHbM&type=video&part=snippet&maxResults=15&q=${this.value}`)
-.then((response)=>{
-  return response.json();
-})
-.then((data)=>{
-  next = data.nextPageToken;
-  let arr = data.items.map((item)=> item.id.videoId);
-  fetch(`https://www.googleapis.com/youtube/v3/videos?key=AIzaSyCTWC75i70moJLzyNh3tt4jzCljZcRkU8Y&id=${arr.join(',')}&part=snippet,statistics`)
-  .then((res)=>{
-    return res.json();
-  })
-  .then((stat)=>{
-    console.log(stat.items);
-    init(stat.items);
-  })
-});
+    fetch(`https://www.googleapis.com/youtube/v3/search?key=AIzaSyDR4nYtKG6R4r2ByKEmvGl9Q3ulSRJcHbM&type=video&part=snippet&maxResults=15&q=${this.value}`)
+    .then((response)=>{
+      return response.json();
+    })
+    .then((data)=>{
+      next = data.nextPageToken;
+      let arr = data.items.map((item)=> item.id.videoId);
+      fetch(`https://www.googleapis.com/youtube/v3/videos?key=AIzaSyCTWC75i70moJLzyNh3tt4jzCljZcRkU8Y&id=${arr.join(',')}&part=snippet,statistics`)
+      .then((res)=>{
+        return res.json();
+      })
+      .then((stat)=>{
+        console.log(stat.items);
+        init(stat.items);
+      })
+    });
 }
-export function addedAjax(next){
-  fetch(`https://www.googleapis.com/youtube/v3/search?key=AIzaSyDR4nYtKG6R4r2ByKEmvGl9Q3ulSRJcHbM&type=video&part=snippet&maxResults=15&pageToken=${next}`)
-  .then((response)=>{
-    return response.json();
-  })
-  .then((data)=>{
-    console.log('#1',next);
-    console.log('#2', data);
-    next = data.nextPageToken;
-    prev = data.prevPageToken;
-    let arr = data.items.map((item)=> item.id.videoId);
-    fetch(`https://www.googleapis.com/youtube/v3/videos?key=AIzaSyCTWC75i70moJLzyNh3tt4jzCljZcRkU8Y&id=${arr.join(',')}&part=snippet,statistics`)
-    .then((res)=>{
-      return res.json();
+
+ export function addedAjax(next){
+    fetch(`https://www.googleapis.com/youtube/v3/search?key=AIzaSyDR4nYtKG6R4r2ByKEmvGl9Q3ulSRJcHbM&type=video&part=snippet&maxResults=15&pageToken=${next}`)
+    .then((response)=>{
+      return response.json();
     })
-    .then((stat)=>{
-      addInit(stat.items);
-    })
-  });
-  }
+    .then((data)=>{
+      next = data.nextPageToken;
+      prev = data.prevPageToken;
+      let arr = data.items.map((item)=> item.id.videoId);
+      fetch(`https://www.googleapis.com/youtube/v3/videos?key=AIzaSyCTWC75i70moJLzyNh3tt4jzCljZcRkU8Y&id=${arr.join(',')}&part=snippet,statistics`)
+      .then((res)=>{
+        return res.json();
+      })
+      .then((stat)=>{
+        addInit(stat.items);
+      })
+    });
+}
   `` `
