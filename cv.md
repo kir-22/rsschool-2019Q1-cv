@@ -14,10 +14,10 @@
 ## Example code:
 
 `` ` 
-import { init, addInit } from './init';
+`import { init, addInit } from './init';
 let next;
 let prev;
-export{next, prev};
+export{next, prev};`
 
 export function ajax(){
     fetch(`https://www.googleapis.com/youtube/v3/search?key=AIzaSyDR4nYtKG6R4r2ByKEmvGl9Q3ulSRJcHbM&type=video&part=snippet&maxResults=15&q=${this.value}`)
@@ -64,20 +64,26 @@ export function ajax(){
 3. For test on platform: GeekBrains
 4. For improve my skills on codewars: Codewars
 
-## Course
+## Course:
+
 ### HIGER ADUCATION
 *2012* | Belarusian National Technical University
+
        | Instrument-making faculty, Micro and nanotechnics (engineer-technologist)
 
 ### PROFESSIONAL DEVELOPMENT, COURSES
 *2018* | The basics of game development on Unity
+
        | HTP, Game Developer
 
 *2014* | Software testing
+
        | Training Technology center "BelHard", SOFTWARE Testing (tester)
 
 *2014* | Testing web-based applications
+
        | Training Technology center "BelHard", SOFTWARE Testing (tester)
 
 ## English level
-My level English is a basic. I want to improve my English. I'd like to lern English fast. I study English himself: Duolingo, SkyEng, Youtoube video. I study him every day, because i want to speak English free.
+>My level English is a A1-A2. I want to improve my English. I'd like to lern English fast. I study English himself: Duolingo, SkyEng, Youtoube video. I study him every day, because i want to speak English free.
+![English Level](https://www.itestenglish.com/images/graph6.png)
