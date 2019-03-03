@@ -57,3 +57,27 @@ export function ajax(){
     });
 }
   `` `
+
+## Practis:
+1. Site: templa.by
+2. Rsscool: Site LAMBDA
+3. For test on platform: GeekBrains
+4. For improve my skills on codewars: Codewars
+
+## Course
+### HIGER ADUCATION
+*2012* | Belarusian National Technical University
+       | Instrument-making faculty, Micro and nanotechnics (engineer-technologist)
+
+### PROFESSIONAL DEVELOPMENT, COURSES
+*2018* | The basics of game development on Unity
+       | HTP, Game Developer
+
+*2014* | Software testing
+       | Training Technology center "BelHard", SOFTWARE Testing (tester)
+
+*2014* | Testing web-based applications
+       | Training Technology center "BelHard", SOFTWARE Testing (tester)
+
+## English level
+My level English is a basic. I want to improve my English. I'd like to lern English fast. I study English himself: Duolingo, SkyEng, Youtoube video. I study him every day, because i want to speak English free.
