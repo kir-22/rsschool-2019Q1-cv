@@ -1,17 +1,17 @@
-# Kireyeu Kiryll
+# KIREYEU KIRYLL
 
-## Contacts:
+## CONTACTS:
 * **Phone:** _+375-29-809-24-90_;
 * **E-mail:** _kirill89kireew@gmail.com_;
 * **Skype:** _kirill.kireev9_.
 
-## Summary:
+## SUMMARY:
 > I learn easily. I like to learn something new. I'am purposeful, responsible. I like Javascript. I'd like to progress in Webdevelopment and create beautiful applications. I study Javascript and his frameworks (Node.js, TypeScript) himself. I finish a course - "Develop Game on Unity3D". I also want to create a HTML5 game. And I will make every effort to become a developer!
 
-## Skills:
+## SKILLS:
 * C#, JavaScript, HTML5, CSS3, NodeJS, Unity3D, TypeScript, Less, Photoshop, Git, Bitrix, React(junior), Webpack.
 
-## Example code:
+## EXAMPLE CODE:
 **Example fetch response of Youtube task**
 
     import { init, addInit } from './init';
@@ -294,13 +294,15 @@
               });
 
 ***
-## Practis:
+
+## PRACTIS:
+
 1. Site: templa.by
 2. Rsscool: Site LAMBDA
 3. For test on platform: GeekBrains
 4. For improve my skills on codewars: Codewars
 
-## Course:
+## COURSE:
 
 ### HIGER ADUCATION
 *2012* | Belarusian National Technical University
