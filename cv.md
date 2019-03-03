@@ -12,6 +12,14 @@
 * C#, JavaScript, HTML5, CSS3, NodeJS, Unity3D, TypeScript, Less, Photoshop, Git, Bitrix, React(junior), Webpack.
 
 ## EXAMPLE CODE:
+**Links on project**
+* [CV](https://kir-22.github.io/rsschool-codejam1-cv/)
+* [Youtube](https://kir-22.github.io/youtube-client/)
+* [Dashboard](https://kir-22.github.io/dashboard/)
+* [Game](https://kir-22.github.io/MonsterGame/)
+* [Presentation](https://kir-22.github.io/TypeScript/index.html)
+* [Lading](https://kir-22.github.io/markup-2018q3/)
+
 **Example fetch response of Youtube task**
 
     import { init, addInit } from './init';
