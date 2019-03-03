@@ -14,10 +14,10 @@
 ## Example code:
 
 `` ` 
-`import { init, addInit } from './init';
-let next;
-let prev;
-export{next, prev};`
+`import { init, addInit } from './init';`
+`let next;`
+`let prev;`
+`export{next, prev};`
 
 export function ajax(){
     fetch(`https://www.googleapis.com/youtube/v3/search?key=AIzaSyDR4nYtKG6R4r2ByKEmvGl9Q3ulSRJcHbM&type=video&part=snippet&maxResults=15&q=${this.value}`)
