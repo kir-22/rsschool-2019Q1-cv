@@ -10,7 +10,8 @@
 * C#, JavaScript, HTML5, CSS3, NodeJS, Unity3D, TypeScript, Less, Photoshop, Git, Bitrix, React(junior), Webpack.
 
 ##Example code:
-` ``import { init, addInit } from './init';
+`` `
+import { init, addInit } from './init';
 let next;
 let prev;
 export{next, prev}
@@ -51,4 +52,5 @@ export function addedAjax(next){
       addInit(stat.items);
     })
   });
-  }`` `
+  }
+  `` `
